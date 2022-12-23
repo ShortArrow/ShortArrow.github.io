@@ -4,18 +4,25 @@ DefaultContentLanguage = "ja"
 defaultContetLanguageInSubdir = true
 hasCJKLanguage = true
 # Add it only if you keep the theme in the `themes` directory.
-# Remove it if you use the theme as a remote Hugo Module.
-theme =  ["github.com/panr/hugo-theme-terminal"]
+# Remove it if you use the theme as a remote Hugo Module. 
+# theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
+# theme =  ["github.com/panr/hugo-theme-hello-friend"]
+# theme =  ["github.com/526avijitgupta/gokarna"]
+theme =  ["github.com/luizdepra/hugo-coder"]
+# theme =  ["github.com/rhazdon/hugo-theme-hello-friend-ng"]
 paginate = 3
 
 [params]
+enableTwemoji = true
+colorScheme = "auto"
 # dir name of your main content (default is `content/posts`).
 # the list of set content will show up on your index page (baseurl).
 contentTypeName = "posts"
 
-# ["orange", "blue", "red", "green", "pink"]
-themeColor = "green"
-showMenuItems = 2
+avatarurl = "img/twitter_icon_light_back.png"
+author = "ShortArrow"
+info = "Automation Magic"
+description = "ShortArrow's personal website"
 
 # show selector to switch language
 showLanguageSelector = true
@@ -24,7 +31,7 @@ showLanguageSelector = true
 fullWidthTheme = false
 
 # center theme with default width
-centerTheme = true
+# centerTheme = true
 
 # if your resource directory contains an image called `cover.(jpg|png|webp)`,
 # then the file will be used as a cover automatically.
@@ -67,7 +74,8 @@ site = ""
 [languages.en]
 contentDir = 'content/en'
 languageName = "English"
-title = "Neovim Reverse Lookup Cheetsheet"
+title = "ShortArrow"
+homeSubtitle = "Official Home Page"
 subtitle = "A simple how to"
 owner = "ShortArrow"
 keywords = "neovim, nvim, cheetsheet"
@@ -83,7 +91,8 @@ missingBackButtonLabel = "Back to home page"
 [languages.ja]
 contentDir = 'content/ja'
 languageName = "Japanese"
-title = "Neovim 逆引きチートシート"
+title = "ShortArrow"
+homeSubtitle = "Official Home Page"
 subtitle = "A simple how to"
 owner = "ShortArrow"
 keywords = "neovim, nvim, cheetsheet"
@@ -97,17 +106,17 @@ missingContentMessage = "Page not found..."
 missingBackButtonLabel = "Back to home page"
 
 [languages.en.params.logo]
-logoText = "NRLCS"
+logoText = "ShortArrow"
 logoHomeLink = "/en"
 [languages.ja.params.logo]
-logoText = "NRLCS"
+logoText = "ShortArrow"
 logoHomeLink = "/"
 
 [languages.en.menu]
 [[languages.en.menu.main]]
-identifier = "top"
-name = "Top"
-url = "/en"
+identifier = "portfolio"
+name = "Portfolio"
+url = "/en/portfolio"
 weight = -100
 [[languages.en.menu.main]]
 identifier = "about"
@@ -116,9 +125,9 @@ url = "/en/about"
 
 [languages.ja.menu]
 [[languages.ja.menu.main]]
-identifier = "top"
-name = "Top"
-url = "/"
+identifier = "portfolio"
+name = "Portfolio"
+url = "/portfolio"
 weight = -100
 [[languages.ja.menu.main]]
 identifier = "about"
@@ -131,4 +140,8 @@ url = "/about"
 # --
 # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
 [[module.imports]]
-path = 'github.com/panr/hugo-theme-terminal'
+# path = 'github.com/Mitrichius/hugo-theme-anubis'
+# path = 'github.com/panr/hugo-theme-hello-friend'
+# path = 'github.com/526avijitgupta/gokarna'
+path = 'github.com/luizdepra/hugo-coder'
+# path = 'github.com/rhazdon/hugo-theme-hello-friend-ng'
