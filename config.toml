@@ -19,6 +19,8 @@ colorScheme = "auto"
 # the list of set content will show up on your index page (baseurl).
 contentTypeName = "posts"
 
+favicon_32 = "/favicon.ico"
+favicon_16 = "/favicon.ico"
 avatarurl = "img/twitter_icon_light_back.png"
 author = "ShortArrow"
 info = "Automation Magic"
