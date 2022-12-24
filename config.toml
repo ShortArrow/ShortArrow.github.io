@@ -65,6 +65,18 @@ showLastUpdated = false
 # TocTitle = "Table of Contents" # default
 
 
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/ShortArrow"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 3
+url = "https://twitter.com/sh_orz_RO"
+
 [params.twitter]
 # set Twitter handles for Twitter cards
 # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
