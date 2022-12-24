@@ -16,4 +16,4 @@ PowerShellの難読化ツールです。
 
 AmzonのURLを短縮するツールです。
 
-<https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/>
+[https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
