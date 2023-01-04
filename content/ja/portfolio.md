@@ -22,6 +22,12 @@ AmzonのURLを短縮するツールです。
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
 
+## Pyxlimg
+
+PythonでExcelファイルから画像を抽出するライブラリです。
+
+<https://pypi.org/project/pyxlimg/>
+
 ## Dotfiles
 
 開発環境です。
