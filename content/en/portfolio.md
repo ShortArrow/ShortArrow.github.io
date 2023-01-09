@@ -28,6 +28,11 @@ Library package for extracting images from Excel in python
 
 <https://pypi.org/project/pyxlimg/>
 
+## Google Play
+
+Apps published on the Google App Store
+<https://play.google.com/store/apps/developer?id=ShortArrow>
+
 ## Dotfiles
 
 This is my development environment

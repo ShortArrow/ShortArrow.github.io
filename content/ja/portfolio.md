@@ -18,7 +18,7 @@ PowerShellの難読化ツールです。
 
 ## URL短縮ツール for Amazon
 
-AmzonのURLを短縮するツールです。
+AmazonのURLを短縮するツールです。
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
 
@@ -27,6 +27,11 @@ AmzonのURLを短縮するツールです。
 PythonでExcelファイルから画像を抽出するライブラリです。
 
 <https://pypi.org/project/pyxlimg/>
+
+## Google Play
+
+Googleのアプリストアで公開しているアプリ
+<https://play.google.com/store/apps/developer?id=ShortArrow>
 
 ## Dotfiles
 
