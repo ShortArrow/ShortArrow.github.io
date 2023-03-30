@@ -16,11 +16,25 @@ Obfuscation tool Powershell
 
 <https://www.powershellgallery.com/packages/PowerPoopizer/>
 
-## URL shortening tool for Amazon
+## Extensions of chrome
+
+### URL shortening tool for Amazon
 
 Shortening tool for URL of Amazon
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
+
+### Procon of Amazon PrimeVideo
+
+[Procon of Amazon Prime Video](https://chrome.google.com/webstore/detail/%E3%83%97%E3%83%AD%E3%82%B3%E3%83%B3-for-prime-video/lgkkdcdmokbbjefjihihjcohjmjlibbm)
+
+## Extensions of VSCode
+
+[https://marketplace.visualstudio.com/publishers/ShortArrow](https://marketplace.visualstudio.com/publishers/ShortArrow)
+
+### LineNumberDeco
+
+[https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco](https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco)
 
 ## Pyxlimg
 
