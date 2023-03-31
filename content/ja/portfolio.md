@@ -45,6 +45,7 @@ PythonでExcelファイルから画像を抽出するライブラリです。
 ## Google Play
 
 Googleのアプリストアで公開しているアプリ
+
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
 ## Dotfiles

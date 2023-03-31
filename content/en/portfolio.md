@@ -45,6 +45,7 @@ Library package for extracting images from Excel in python
 ## Google Play
 
 Apps published on the Google App Store
+
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
 ## Dotfiles
