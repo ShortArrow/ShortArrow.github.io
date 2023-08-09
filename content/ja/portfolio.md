@@ -2,6 +2,8 @@
 
 ## Qiitaブログ
 
+技術ブログをQiitaで書いています。
+
 <https://qiita.com/ShortArrow>
 
 ## PS-Yubaba
@@ -26,6 +28,8 @@ AmazonのURLを短縮するツールです。
 
 ### プロコン of Amazon PrimeVideo
 
+視聴状況が一目で分かるダッシュボードをブラウザに追加します。
+
 [Procon of Amazon Prime Video](https://chrome.google.com/webstore/detail/%E3%83%97%E3%83%AD%E3%82%B3%E3%83%B3-for-prime-video/lgkkdcdmokbbjefjihihjcohjmjlibbm)
 
 ## VSCode拡張機能
@@ -33,6 +37,8 @@ AmazonのURLを短縮するツールです。
 [https://marketplace.visualstudio.com/publishers/ShortArrow](https://marketplace.visualstudio.com/publishers/ShortArrow)
 
 ### LineNumberDeco
+
+(Neovim|Vim|Emacs)キーバインド使用時に役立つ行番号を表示してくれます。
 
 [https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco](https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco)
 
