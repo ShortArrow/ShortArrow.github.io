@@ -54,6 +54,14 @@ Googleのアプリストアで公開しているアプリ
 
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
+## Figmaプラグイン
+
+### Lorem sabigara client
+
+日本語のダミーテキストを生成するFigmaプラグインです。
+
+<https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client>
+
 ## Dotfiles
 
 開発環境です。
