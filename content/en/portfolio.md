@@ -48,6 +48,14 @@ Apps published on the Google App Store
 
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
+## Figma plugins
+
+### Lorem sabigara client
+
+A Figma plugin that generates Japanese dummy text.
+
+<https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client>
+
 ## Dotfiles
 
 This is my development environment
