@@ -11,7 +11,8 @@ hasCJKLanguage = true
 theme =  ["github.com/luizdepra/hugo-coder"]
 # theme =  ["hugo-coder"]
 # theme =  ["github.com/rhazdon/hugo-theme-hello-friend-ng"]
-paginate = 3
+[pagenation]
+pagerSize = 3
 
 [params]
 enableTwemoji = true
