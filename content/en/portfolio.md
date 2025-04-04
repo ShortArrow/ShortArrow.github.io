@@ -36,6 +36,14 @@ Shortening tool for URL of Amazon
 
 [https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco](https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco)
 
+## Neovim plugins
+
+### Hanzen
+
+Neovim plugin for rewrite half width to full width or reverse, hiragana and katakana.
+
+[https://github.com/ShortArrow/hanzen.nvim](https://github.com/ShortArrow/hanzen.nvim)
+
 ## Pyxlimg
 
 Library package for extracting images from Excel in python

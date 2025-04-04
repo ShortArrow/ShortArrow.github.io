@@ -42,6 +42,14 @@ AmazonのURLを短縮するツールです。
 
 [https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco](https://marketplace.visualstudio.com/items?itemName=ShortArrow.line-number-deco)
 
+## Neovimプラグイン
+
+### Hanzen
+
+半角全角を書き換えるためのNeovimプラグインです。
+
+[https://github.com/ShortArrow/hanzen.nvim](https://github.com/ShortArrow/hanzen.nvim)
+
 ## Pyxlimg
 
 PythonでExcelファイルから画像を抽出するライブラリです。
