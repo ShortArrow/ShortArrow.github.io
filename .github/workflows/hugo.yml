@@ -52,6 +52,7 @@ jobs:
           mkdir -p ./static/fonts && \
           mkdir -p ./static/webfonts && \
           npm ci && \
+          ls -la ./node_modules/@fortawesome/fontawesome-free/webfonts && \
           cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./static/fonts && \
           cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./static/webfonts && \
           echo "Fonts copied to public directory"
