@@ -65,8 +65,8 @@ jobs:
           mkdir -p ./public/fonts && \
           mkdir -p ./public/webfonts && \
           npm ci && \
-          sudo find ./public -type d -exec chmod 755 {} && \
-          sudo find ./public -type f -exec chmod 644 {} && \
+          sudo find ./public -type d -exec chmod 755 {} && \; && \
+          sudo find ./public -type f -exec chmod 644 {} && \; && \
           sudo chown -R $USER:$USER ./public/fonts ./public/webfonts  && \
           cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./public/fonts && \
           cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./public/webfonts && \
