@@ -60,6 +60,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Add fonts
+        run: |
+          mkdir -p ./public/fonts && \
+          mkdir -p ./public/webfonts && \
+          cp ./node_modules/@fontawesome/fontawesome-free/webfonts/* ./public/fonts && \
+          cp ./node_modules/@fontawesome/fontawesome-free/webfonts/* ./public/webfonts
 
   # Deployment job
   deploy:

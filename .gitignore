@@ -11,3 +11,8 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Node modules
+node_modules/
+static/fonts/
+static/webfonts/
