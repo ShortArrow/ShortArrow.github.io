@@ -47,6 +47,14 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Add fonts
+        run: |
+          mkdir -p ./static/fonts && \
+          mkdir -p ./static/webfonts && \
+          npm ci && \
+          cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./static/fonts && \
+          cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./static/webfonts && \
+          echo "Fonts copied to public directory"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -60,17 +68,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Add fonts
-        run: |
-          mkdir -p ./public/fonts && \
-          mkdir -p ./public/webfonts && \
-          npm ci && \
-          sudo find ./public -type d -exec chmod 755 {} \; && \
-          sudo find ./public -type f -exec chmod 644 {} \; && \
-          sudo chown -R $USER:$USER ./public/fonts ./public/webfonts  && \
-          cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./public/fonts && \
-          cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./public/webfonts && \
-          echo "Fonts copied to public directory"
 
   # Deployment job
   deploy:
