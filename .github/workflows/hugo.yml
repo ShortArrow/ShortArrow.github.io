@@ -64,6 +64,7 @@ jobs:
         run: |
           mkdir -p ./public/fonts && \
           mkdir -p ./public/webfonts && \
+          npm ci && \
           cp ./node_modules/@fontawesome/fontawesome-free/webfonts/* ./public/fonts && \
           cp ./node_modules/@fontawesome/fontawesome-free/webfonts/* ./public/webfonts
 
