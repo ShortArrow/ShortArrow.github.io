@@ -69,13 +69,13 @@ showLastUpdated = false
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-2x fa-github"
+icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/ShortArrow"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa fa-2x fa-twitter"
+icon = "fa-brands fa-twitter fa-2x"
 weight = 3
 url = "https://twitter.com/Sh0rtArr0w"
 
