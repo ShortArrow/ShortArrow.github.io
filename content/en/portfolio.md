@@ -24,6 +24,12 @@ Shortening tool for URL of Amazon
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
 
+### RazorShell
+
+A Chrome extension that applies Bash shortcuts to text boxes displayed in the browser.
+
+[https://chromewebstore.google.com/detail/razorshell/ahokbhndbjckeejighhkldiohmokpclb](https://chromewebstore.google.com/detail/razorshell/ahokbhndbjckeejighhkldiohmokpclb)
+
 ## rust crate
 
 ### vsixHarvester

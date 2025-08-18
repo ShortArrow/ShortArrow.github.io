@@ -26,6 +26,12 @@ AmazonのURLを短縮するツールです。
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
 
+### RazorShell
+
+ブラウザで表示されているテキストボックスにBashショートカットを適用するChrome拡張機能です。
+
+[https://chromewebstore.google.com/detail/razorshell/ahokbhndbjckeejighhkldiohmokpclb](https://chromewebstore.google.com/detail/razorshell/ahokbhndbjckeejighhkldiohmokpclb)
+
 ## rust crate
 
 ### vsixHarvester
