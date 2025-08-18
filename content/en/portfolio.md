@@ -24,9 +24,13 @@ Shortening tool for URL of Amazon
 
 [https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/](https://chrome.google.com/webstore/detail/url-shortening-tool-for-a/namnkmppogbmmdelkomaendbemoncmok)
 
-### Procon of Amazon PrimeVideo
+## rust crate
 
-[Procon of Amazon Prime Video](https://chrome.google.com/webstore/detail/%E3%83%97%E3%83%AD%E3%82%B3%E3%83%B3-for-prime-video/lgkkdcdmokbbjefjihihjcohjmjlibbm)
+### vsixHarvester
+
+Tool for downloading VSCode extensions in VSIX format written in Rust.
+
+[https://crates.io/crates/vsixHarvester](https://crates.io/crates/vsixHarvester)
 
 ## Extensions of VSCode
 
