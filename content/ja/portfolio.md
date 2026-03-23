@@ -40,6 +40,26 @@ VSCodeの拡張機能をVSIX形式でダウンロードするためのRust製ツ
 
 [https://crates.io/crates/vsixHarvester](https://crates.io/crates/vsixHarvester)
 
+### runex
+
+クロスシェル対応の省略語エンジンで、短いトークンをフルコマンドに展開するCLIツールです。
+
+[https://crates.io/crates/runex](https://crates.io/crates/runex)
+
+### kebiki
+
+CSVファイルの構造とフォーマットの特性を解析・検査するCLIツールです。エンコーディング検出や区切り文字の特定などに対応しています。
+
+[https://crates.io/crates/kebiki](https://crates.io/crates/kebiki)
+
+## npmパッケージ
+
+### cc-led
+
+ArduinoボードのLEDを制御し、スケッチを管理するためのユニバーサルCLIツールです。Arduino (XIAO RP2040, Raspberry Pi Pico, UNO R4) やNeoPixel/WS2812 LEDに対応しています。
+
+[https://www.npmjs.com/package/cc-led](https://www.npmjs.com/package/cc-led)
+
 ## VSCode拡張機能
 
 [https://marketplace.visualstudio.com/publishers/ShortArrow](https://marketplace.visualstudio.com/publishers/ShortArrow)
@@ -83,3 +103,17 @@ Googleのアプリストアで公開しているアプリ
 開発環境です。
 
 <https://github.com/ShortArrow/dotfiles>
+
+## その他ツール
+
+### glazewm-debug
+
+TUI（テキストユーザーインターフェース）からGlazeWMのウィンドウをデバッグするためのツールです。
+
+[https://github.com/ShortArrow/glazewm-debug](https://github.com/ShortArrow/glazewm-debug)
+
+### Shmphin (W.I.P.)
+
+共有メモリエディタです。
+
+[https://github.com/ShortArrow/Shmphin](https://github.com/ShortArrow/Shmphin)

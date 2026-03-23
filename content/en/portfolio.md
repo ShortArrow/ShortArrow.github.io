@@ -38,6 +38,26 @@ Tool for downloading VSCode extensions in VSIX format written in Rust.
 
 [https://crates.io/crates/vsixHarvester](https://crates.io/crates/vsixHarvester)
 
+### runex
+
+A cross-shell abbreviation engine that expands short tokens into full commands.
+
+[https://crates.io/crates/runex](https://crates.io/crates/runex)
+
+### kebiki
+
+A command-line tool to analyze CSV file structure and formatting characteristics, including encoding detection and delimiter identification.
+
+[https://crates.io/crates/kebiki](https://crates.io/crates/kebiki)
+
+## npm package
+
+### cc-led
+
+A universal CLI tool for controlling LEDs on Arduino boards and managing sketches. Supports Arduino (XIAO RP2040, Raspberry Pi Pico, UNO R4) and NeoPixel/WS2812 LEDs.
+
+[https://www.npmjs.com/package/cc-led](https://www.npmjs.com/package/cc-led)
+
 ## Extensions of VSCode
 
 [https://marketplace.visualstudio.com/publishers/ShortArrow](https://marketplace.visualstudio.com/publishers/ShortArrow)
@@ -79,3 +99,17 @@ A Figma plugin that generates Japanese dummy text.
 This is my development environment
 
 <https://github.com/ShortArrow/dotfiles>
+
+## Other tools
+
+### glazewm-debug
+
+A tool for debugging GlazeWM windows from a TUI (Text User Interface).
+
+[https://github.com/ShortArrow/glazewm-debug](https://github.com/ShortArrow/glazewm-debug)
+
+### Shmphin (W.I.P.)
+
+A shared memory editor.
+
+[https://github.com/ShortArrow/Shmphin](https://github.com/ShortArrow/Shmphin)
