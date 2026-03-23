@@ -15,3 +15,5 @@ hugo.linux
 # Node modules
 node_modules/
 static/fonts/
+static/webfonts/
+static/fontsd/
