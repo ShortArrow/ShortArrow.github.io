@@ -50,6 +50,20 @@ A command-line tool to analyze CSV file structure and formatting characteristics
 
 [https://crates.io/crates/kebiki](https://crates.io/crates/kebiki)
 
+### pathlint
+
+A lint tool that checks the PATH environment variable against declarative ordering rules.
+
+[https://crates.io/crates/pathlint](https://crates.io/crates/pathlint)
+
+## NuGet package
+
+### ivi-cli
+
+A VISA/IVI based CLI tool for integrated control of measurement instruments.
+
+[https://www.nuget.org/packages/ivi-cli/](https://www.nuget.org/packages/ivi-cli/)
+
 ## npm package
 
 ### cc-led
@@ -101,6 +115,18 @@ This is my development environment
 <https://github.com/ShortArrow/dotfiles>
 
 ## Other tools
+
+### LuMeLIR (W.I.P.)
+
+A Rust-based AOT compiler toolchain that lowers Lua through MLIR to CPU/GPU/FPGA/MCU targets.
+
+[https://github.com/ShortArrow/LuMeLIR](https://github.com/ShortArrow/LuMeLIR)
+
+### icscli (formerly makeholiday)
+
+A command-line tool for building and editing iCalendar (`.ics`) files, designed for managing personal holiday and event calendars from the terminal.
+
+[https://github.com/ShortArrow/makeholiday](https://github.com/ShortArrow/makeholiday)
 
 ### glazewm-debug
 

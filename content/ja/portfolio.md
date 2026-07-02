@@ -52,6 +52,20 @@ CSVファイルの構造とフォーマットの特性を解析・検査するCL
 
 [https://crates.io/crates/kebiki](https://crates.io/crates/kebiki)
 
+### pathlint
+
+PATH環境変数を宣言的な順序ルールに基づいて検査するlintツールです。
+
+[https://crates.io/crates/pathlint](https://crates.io/crates/pathlint)
+
+## NuGetパッケージ
+
+### ivi-cli
+
+VISA/IVIベースで計測器を統合操作するCLIツールです。
+
+[https://www.nuget.org/packages/ivi-cli/](https://www.nuget.org/packages/ivi-cli/)
+
 ## npmパッケージ
 
 ### cc-led
@@ -105,6 +119,18 @@ Googleのアプリストアで公開しているアプリ
 <https://github.com/ShortArrow/dotfiles>
 
 ## その他ツール
+
+### LuMeLIR (W.I.P.)
+
+LuaをMLIR経由でCPU/GPU/FPGA/MCU向けにコンパイルするRust製AOTコンパイラツールチェインです。
+
+[https://github.com/ShortArrow/LuMeLIR](https://github.com/ShortArrow/LuMeLIR)
+
+### icscli (旧 makeholiday)
+
+iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝日や個人イベントのカレンダーをターミナルから管理できます。
+
+[https://github.com/ShortArrow/makeholiday](https://github.com/ShortArrow/makeholiday)
 
 ### glazewm-debug
 
