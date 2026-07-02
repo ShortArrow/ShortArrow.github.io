@@ -135,6 +135,11 @@ name = "Portfolio"
 url = "/en/portfolio"
 weight = -100
 [[languages.en.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://blog.shortarrow.jp"
+weight = -50
+[[languages.en.menu.main]]
 identifier = "about"
 name = "About"
 url = "/en/about"
@@ -145,6 +150,11 @@ identifier = "portfolio"
 name = "Portfolio"
 url = "/portfolio"
 weight = -100
+[[languages.ja.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://blog.shortarrow.jp"
+weight = -50
 [[languages.ja.menu.main]]
 identifier = "about"
 name = "About"
