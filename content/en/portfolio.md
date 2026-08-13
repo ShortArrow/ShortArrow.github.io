@@ -100,6 +100,14 @@ Apps published on the Google App Store
 
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
+## Microsoft Store
+
+### Menreiki
+
+A local-first Windows app that detects identifying information (names, organizations, model numbers, etc.) in PDFs and images, and anonymizes or pseudonymizes it through human review.
+
+[https://apps.microsoft.com/detail/9nll16sbkgdw](https://apps.microsoft.com/detail/9nll16sbkgdw)
+
 ## Figma plugins
 
 ### Lorem sabigara client

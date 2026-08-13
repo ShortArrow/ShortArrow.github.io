@@ -104,6 +104,14 @@ Googleのアプリストアで公開しているアプリ
 
 <https://play.google.com/store/apps/developer?id=ShortArrow>
 
+## Microsoft Store
+
+### Menreiki
+
+PDFや画像から氏名・組織名・型番などの識別情報を検出し、人のレビューを介して匿名化・仮名化するローカルファーストなWindowsアプリです。
+
+[https://apps.microsoft.com/detail/9nll16sbkgdw](https://apps.microsoft.com/detail/9nll16sbkgdw)
+
 ## Figmaプラグイン
 
 ### Lorem sabigara client
