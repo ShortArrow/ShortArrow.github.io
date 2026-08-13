@@ -140,6 +140,12 @@ iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝�
 
 [https://github.com/ShortArrow/makeholiday](https://github.com/ShortArrow/makeholiday)
 
+### gitreant
+
+複数のローカルGitリポジトリを1か所で管理・閲覧・メンテナンスするWebアプリです。コミットグラフの並列表示、ブランチ操作、diff表示に対応し、Rust製の単一バイナリで動作します。
+
+[https://github.com/ShortArrow/gitreant](https://github.com/ShortArrow/gitreant)
+
 ### glazewm-debug
 
 TUI（テキストユーザーインターフェース）からGlazeWMのウィンドウをデバッグするためのツールです。

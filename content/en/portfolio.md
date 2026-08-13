@@ -136,6 +136,12 @@ A command-line tool for building and editing iCalendar (`.ics`) files, designed 
 
 [https://github.com/ShortArrow/makeholiday](https://github.com/ShortArrow/makeholiday)
 
+### gitreant
+
+A web app to manage, inspect, and maintain multiple local Git repositories from one place. It shows commit graphs side by side, supports branch operations and diff viewing, and ships as a single Rust binary.
+
+[https://github.com/ShortArrow/gitreant](https://github.com/ShortArrow/gitreant)
+
 ### glazewm-debug
 
 A tool for debugging GlazeWM windows from a TUI (Text User Interface).
