@@ -142,6 +142,18 @@ A web app to manage, inspect, and maintain multiple local Git repositories from 
 
 [https://github.com/ShortArrow/gitreant](https://github.com/ShortArrow/gitreant)
 
+### herdr-triton
+
+A tool that connects herdr to an RP2040 keypad, letting you approve agents with physical keys and LEDs.
+
+[https://github.com/ShortArrow/herdr-triton](https://github.com/ShortArrow/herdr-triton)
+
+### CRC Visualizer
+
+An SPA that visualizes one clock of an LFSR (hardware) alongside one line of a bitwise CRC implementation (software). It supports switching CRC configurations using the Rocksoft model.
+
+[https://crc.shortarrow.jp/](https://crc.shortarrow.jp/) / [https://github.com/ShortArrow/crc-visualize](https://github.com/ShortArrow/crc-visualize)
+
 ### glazewm-debug
 
 A tool for debugging GlazeWM windows from a TUI (Text User Interface).

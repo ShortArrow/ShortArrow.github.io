@@ -146,6 +146,18 @@ iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝�
 
 [https://github.com/ShortArrow/gitreant](https://github.com/ShortArrow/gitreant)
 
+### herdr-triton
+
+herdrとRP2040キーパッドを接続し、物理キーとLEDでエージェントの承認操作を行うツールです。
+
+[https://github.com/ShortArrow/herdr-triton](https://github.com/ShortArrow/herdr-triton)
+
+### CRC Visualizer
+
+LFSR（ハードウェア）とビット単位のCRC実装（ソフトウェア）を1クロックずつ並べて可視化するSPAです。RocksoftモデルによるCRC設定の切り替えに対応しています。
+
+[https://crc.shortarrow.jp/](https://crc.shortarrow.jp/) / [https://github.com/ShortArrow/crc-visualize](https://github.com/ShortArrow/crc-visualize)
+
 ### glazewm-debug
 
 TUI（テキストユーザーインターフェース）からGlazeWMのウィンドウをデバッグするためのツールです。
