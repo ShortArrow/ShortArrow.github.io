@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if ! command -v hugo >/dev/null 2>&1; then
+  printf '%s\n' 'pre-push: hugo was not found; skipping the local site build.' >&2
+  exit 0
+fi
+
+build_dir=$(mktemp -d "${TMPDIR:-/tmp}/shortarrow-hugo.XXXXXX")
+trap 'rm -rf "$build_dir"' EXIT
+
+printf '%s\n' 'pre-push: building the Hugo site...' >&2
+hugo --minify --destination "$build_dir"
+printf '%s\n' 'pre-push: Hugo build passed.' >&2
