@@ -1,0 +1,14 @@
+.portfolio-icon {
+  float: left;
+  width: 72px;
+  height: 72px;
+  max-width: 72px;
+  margin: 0.15rem 1rem 0.5rem 0;
+  object-fit: contain;
+}
+
+// Start each portfolio entry below the icon belonging to the previous one.
+.page article h2,
+.page article h3 {
+  clear: both;
+}
