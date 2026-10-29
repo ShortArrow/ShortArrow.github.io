@@ -1,6 +1,6 @@
 // Keep the small project icons in the portfolio from expanding to their
 // intrinsic SVG dimensions.
-img[alt$=" icon"] {
+.portfolio-icon {
   display: block;
   width: 64px;
   height: 64px;

@@ -8,7 +8,7 @@
 
 ## PS-Yubaba
 
-![PS-Yubaba icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="PS-Yubaba icon" >}}
 
 湯婆婆が出現するPowershell モジュールです。
 
@@ -16,7 +16,7 @@
 
 ## KanaLock
 
-![KanaLock icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="KanaLock icon" >}}
 
 WindowsのPowerShellからかなロック（`VK_KANA`）の状態を確認・切り替えするモジュールです。
 
@@ -24,7 +24,7 @@ WindowsのPowerShellからかなロック（`VK_KANA`）の状態を確認・切
 
 ## Power Poopizer
 
-![Power Poopizer icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Power Poopizer icon" >}}
 
 PowerShellの難読化ツールです。
 
@@ -34,7 +34,7 @@ PowerShellの難読化ツールです。
 
 ### URL短縮ツール for Amazon
 
-![URL短縮ツール for Amazon icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="URL短縮ツール for Amazon icon" >}}
 
 AmazonのURLを短縮するツールです。
 
@@ -42,7 +42,7 @@ AmazonのURLを短縮するツールです。
 
 ### RazorShell
 
-![RazorShell icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="RazorShell icon" >}}
 
 ブラウザで表示されているテキストボックスにBashショートカットを適用するChrome拡張機能です。
 
@@ -52,7 +52,7 @@ AmazonのURLを短縮するツールです。
 
 ### vsixHarvester
 
-![vsixHarvester icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="vsixHarvester icon" >}}
 
 VSCodeの拡張機能をVSIX形式でダウンロードするためのRust製ツールです。
 
@@ -60,7 +60,7 @@ VSCodeの拡張機能をVSIX形式でダウンロードするためのRust製ツ
 
 ### runex
 
-![runex icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="runex icon" >}}
 
 クロスシェル対応の省略語エンジンで、短いトークンをフルコマンドに展開するCLIツールです。
 
@@ -68,7 +68,7 @@ VSCodeの拡張機能をVSIX形式でダウンロードするためのRust製ツ
 
 ### kebiki
 
-![kebiki icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="kebiki icon" >}}
 
 CSVファイルの構造とフォーマットの特性を解析・検査するCLIツールです。エンコーディング検出や区切り文字の特定などに対応しています。
 
@@ -76,7 +76,7 @@ CSVファイルの構造とフォーマットの特性を解析・検査するCL
 
 ### pathlint
 
-![pathlint icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="pathlint icon" >}}
 
 PATH環境変数を宣言的な順序ルールに基づいて検査するlintツールです。
 
@@ -86,7 +86,7 @@ PATH環境変数を宣言的な順序ルールに基づいて検査するlintツ
 
 ### ivi-cli
 
-![ivi-cli icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="ivi-cli icon" >}}
 
 VISA/IVIベースで計測器を統合操作するCLIツールです。
 
@@ -96,7 +96,7 @@ VISA/IVIベースで計測器を統合操作するCLIツールです。
 
 ### cc-led
 
-![cc-led icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="cc-led icon" >}}
 
 ArduinoボードのLEDを制御し、スケッチを管理するためのユニバーサルCLIツールです。Arduino (XIAO RP2040, Raspberry Pi Pico, UNO R4) やNeoPixel/WS2812 LEDに対応しています。
 
@@ -108,7 +108,7 @@ ArduinoボードのLEDを制御し、スケッチを管理するためのユニ�
 
 ### LineNumberDeco
 
-![LineNumberDeco icon](/img/portfolio/line-number-deco.svg)
+{{< portfolio-icon src="/img/portfolio/line-number-deco.svg" alt="LineNumberDeco icon" >}}
 
 (Neovim|Vim|Emacs)キーバインド使用時に役立つ行番号を表示してくれます。
 
@@ -118,7 +118,7 @@ ArduinoボードのLEDを制御し、スケッチを管理するためのユニ�
 
 ### Hanzen
 
-![Hanzen icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Hanzen icon" >}}
 
 半角全角を書き換えるためのNeovimプラグインです。
 
@@ -126,7 +126,7 @@ ArduinoボードのLEDを制御し、スケッチを管理するためのユニ�
 
 ## Pyxlimg
 
-![Pyxlimg icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Pyxlimg icon" >}}
 
 PythonでExcelファイルから画像を抽出するライブラリです。
 
@@ -142,7 +142,7 @@ Googleのアプリストアで公開しているアプリ
 
 ### Menreiki
 
-![Menreiki icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Menreiki icon" >}}
 
 PDFや画像から氏名・組織名・型番などの識別情報を検出し、人のレビューを介して匿名化・仮名化するローカルファーストなWindowsアプリです。
 
@@ -152,7 +152,7 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 ### Lorem sabigara client
 
-![Lorem sabigara client icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Lorem sabigara client icon" >}}
 
 日本語のダミーテキストを生成するFigmaプラグインです。
 
@@ -160,7 +160,7 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 ## Dotfiles
 
-![Dotfiles icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Dotfiles icon" >}}
 
 開発環境です。
 
@@ -170,7 +170,7 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 ### LuMeLIR (W.I.P.)
 
-![LuMeLIR icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="LuMeLIR icon" >}}
 
 LuaをMLIR経由でCPU/GPU/FPGA/MCU向けにコンパイルするRust製AOTコンパイラツールチェインです。
 
@@ -178,7 +178,7 @@ LuaをMLIR経由でCPU/GPU/FPGA/MCU向けにコンパイルするRust製AOTコ�
 
 ### icscli (旧 makeholiday)
 
-![icscli icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="icscli icon" >}}
 
 iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝日や個人イベントのカレンダーをターミナルから管理できます。
 
@@ -186,7 +186,7 @@ iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝�
 
 ### gitreant
 
-![gitreant icon](/img/portfolio/gitreant.svg)
+{{< portfolio-icon src="/img/portfolio/gitreant.svg" alt="gitreant icon" >}}
 
 複数のローカルGitリポジトリを1か所で管理・閲覧・メンテナンスするWebアプリです。コミットグラフの並列表示、ブランチ操作、diff表示に対応し、Rust製の単一バイナリで動作します。
 
@@ -194,7 +194,7 @@ iCalendar (`.ics`) ファイルを作成・編集するCLIツールです。祝�
 
 ### herdr-triton
 
-![herdr-triton icon](/img/portfolio/herdr-triton.svg)
+{{< portfolio-icon src="/img/portfolio/herdr-triton.svg" alt="herdr-triton icon" >}}
 
 herdrとRP2040キーパッドを接続し、物理キーとLEDでエージェントの承認操作を行うツールです。
 
@@ -202,7 +202,7 @@ herdrとRP2040キーパッドを接続し、物理キーとLEDでエージェン
 
 ### CRC Visualizer
 
-![CRC Visualizer icon](/img/portfolio/crc-visualize.svg)
+{{< portfolio-icon src="/img/portfolio/crc-visualize.svg" alt="CRC Visualizer icon" >}}
 
 LFSR（ハードウェア）とビット単位のCRC実装（ソフトウェア）を1クロックずつ並べて可視化するSPAです。RocksoftモデルによるCRC設定の切り替えに対応しています。
 
@@ -210,7 +210,7 @@ LFSR（ハードウェア）とビット単位のCRC実装（ソフトウェア�
 
 ### glazewm-debug
 
-![glazewm-debug icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="glazewm-debug icon" >}}
 
 TUI（テキストユーザーインターフェース）からGlazeWMのウィンドウをデバッグするためのツールです。
 
@@ -218,7 +218,7 @@ TUI（テキストユーザーインターフェース）からGlazeWMのウィ�
 
 ### Shmphin (W.I.P.)
 
-![Shmphin icon](/img/portfolio/pending.svg)
+{{< portfolio-icon src="/img/portfolio/pending.svg" alt="Shmphin icon" >}}
 
 共有メモリエディタです。
 
