@@ -4,14 +4,14 @@
 
 技術ブログをQiitaで書いています。
 
-<https://qiita.com/ShortArrow>
+[https://qiita.com/ShortArrow](https://qiita.com/ShortArrow)
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="PS-Yubaba icon" %}}
 ### PS-Yubaba
 
 湯婆婆が出現するPowershell モジュールです。
 
-<https://www.powershellgallery.com/packages/psyubaba>
+[https://www.powershellgallery.com/packages/psyubaba](https://www.powershellgallery.com/packages/psyubaba)
 {{% /portfolio-item %}}
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="KanaLock icon" %}}
@@ -27,7 +27,7 @@ WindowsのPowerShellからかなロック（`VK_KANA`）の状態を確認・切
 
 PowerShellの難読化ツールです。
 
-<https://www.powershellgallery.com/packages/PowerPoopizer/>
+[https://www.powershellgallery.com/packages/PowerPoopizer/](https://www.powershellgallery.com/packages/PowerPoopizer/)
 {{% /portfolio-item %}}
 
 ## chrome拡張機能
@@ -129,14 +129,14 @@ ArduinoボードのLEDを制御し、スケッチを管理するためのユニ�
 
 PythonでExcelファイルから画像を抽出するライブラリです。
 
-<https://pypi.org/project/pyxlimg/>
+[https://pypi.org/project/pyxlimg/](https://pypi.org/project/pyxlimg/)
 {{% /portfolio-item %}}
 
 ## Google Play
 
 Googleのアプリストアで公開しているアプリ
 
-<https://play.google.com/store/apps/developer?id=ShortArrow>
+[https://play.google.com/store/apps/developer?id=ShortArrow](https://play.google.com/store/apps/developer?id=ShortArrow)
 
 ## Microsoft Store
 
@@ -155,7 +155,7 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 日本語のダミーテキストを生成するFigmaプラグインです。
 
-<https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client>
+[https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client](https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client)
 {{% /portfolio-item %}}
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="Dotfiles icon" %}}
@@ -163,7 +163,7 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 開発環境です。
 
-<https://github.com/ShortArrow/dotfiles>
+[https://github.com/ShortArrow/dotfiles](https://github.com/ShortArrow/dotfiles)
 {{% /portfolio-item %}}
 
 ## その他ツール

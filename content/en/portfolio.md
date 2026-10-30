@@ -2,14 +2,14 @@
 
 ## Qiita blog
 
-<https://qiita.com/ShortArrow>
+[https://qiita.com/ShortArrow](https://qiita.com/ShortArrow)
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="PS-Yubaba icon" %}}
 ### PS-Yubaba
 
 Summoning magic formula to lure Yubaba the Ghibli
 
-<https://www.powershellgallery.com/packages/psyubaba>
+[https://www.powershellgallery.com/packages/psyubaba](https://www.powershellgallery.com/packages/psyubaba)
 {{% /portfolio-item %}}
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="KanaLock icon" %}}
@@ -25,7 +25,7 @@ A PowerShell module for reading and toggling the kana lock (`VK_KANA`) state on 
 
 Obfuscation tool Powershell
 
-<https://www.powershellgallery.com/packages/PowerPoopizer/>
+[https://www.powershellgallery.com/packages/PowerPoopizer/](https://www.powershellgallery.com/packages/PowerPoopizer/)
 {{% /portfolio-item %}}
 
 ## Extensions of chrome
@@ -125,14 +125,14 @@ Neovim plugin for rewrite half width to full width or reverse, hiragana and kata
 
 Library package for extracting images from Excel in python
 
-<https://pypi.org/project/pyxlimg/>
+[https://pypi.org/project/pyxlimg/](https://pypi.org/project/pyxlimg/)
 {{% /portfolio-item %}}
 
 ## Google Play
 
 Apps published on the Google App Store
 
-<https://play.google.com/store/apps/developer?id=ShortArrow>
+[https://play.google.com/store/apps/developer?id=ShortArrow](https://play.google.com/store/apps/developer?id=ShortArrow)
 
 ## Microsoft Store
 
@@ -151,7 +151,7 @@ A local-first Windows app that detects identifying information (names, organizat
 
 A Figma plugin that generates Japanese dummy text.
 
-<https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client>
+[https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client](https://www.figma.com/community/plugin/1278058720021056654/Lorem-sabigara-client)
 {{% /portfolio-item %}}
 
 {{% portfolio-item src="/img/portfolio/pending.svg" alt="Dotfiles icon" %}}
@@ -159,7 +159,7 @@ A Figma plugin that generates Japanese dummy text.
 
 This is my development environment
 
-<https://github.com/ShortArrow/dotfiles>
+[https://github.com/ShortArrow/dotfiles](https://github.com/ShortArrow/dotfiles)
 {{% /portfolio-item %}}
 
 ## Other tools
