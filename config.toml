@@ -3,6 +3,10 @@ languageCode = 'ja'
 DefaultContentLanguage = "ja"
 defaultContetLanguageInSubdir = true
 hasCJKLanguage = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module. 
 # theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
