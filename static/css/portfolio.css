@@ -10,7 +10,7 @@
   grid-template-columns: var(--portfolio-icon-size) minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
-  height: 212px;
+  min-height: 212px;
   margin: 1.5rem 0 2rem;
   padding: 1rem;
   border: 1px solid rgba(127, 127, 127, 0.35);
