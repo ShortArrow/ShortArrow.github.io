@@ -45,6 +45,7 @@
 
   .portfolio-item-content > :first-child {
     grid-column: 2;
+    align-self: center;
   }
 
   .portfolio-item-content > :not(:first-child) {
