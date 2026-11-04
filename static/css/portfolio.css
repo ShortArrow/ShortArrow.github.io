@@ -38,4 +38,16 @@
     height: auto;
     min-height: 120px;
   }
+
+  .portfolio-item-content {
+    display: contents;
+  }
+
+  .portfolio-item-content > :first-child {
+    grid-column: 2;
+  }
+
+  .portfolio-item-content > :not(:first-child) {
+    grid-column: 1 / -1;
+  }
 }
