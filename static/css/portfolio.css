@@ -30,6 +30,12 @@
   margin-top: 0;
 }
 
+@media (min-width: 601px) {
+  .portfolio-item-content {
+    padding: 0.5rem 0.75rem 0.5rem 0.25rem;
+  }
+}
+
 @media (max-width: 600px) {
   .portfolio-item {
     --portfolio-icon-size: 88px;
