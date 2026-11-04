@@ -10,7 +10,7 @@
   grid-template-columns: var(--portfolio-icon-size) minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
-  min-height: 212px;
+  height: 212px;
   margin: 1.5rem 0 2rem;
   padding: 1rem;
   border: 1px solid rgba(127, 127, 127, 0.35);
@@ -28,6 +28,20 @@
 
 .portfolio-item-content > :first-child {
   margin-top: 0;
+}
+
+.portfolio-item-content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.portfolio-item-content > * {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item-content > :last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 601px) {
