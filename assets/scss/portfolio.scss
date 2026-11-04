@@ -5,8 +5,9 @@
 }
 
 .portfolio-item {
+  --portfolio-icon-size: 128px;
   display: grid;
-  grid-template-columns: 128px minmax(0, 1fr);
+  grid-template-columns: var(--portfolio-icon-size) minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
   margin: 1.5rem 0 2rem;
@@ -16,10 +17,11 @@
 }
 
 .portfolio-item-icon {
-  width: 128px;
-  aspect-ratio: 1;
+  width: var(--portfolio-icon-size);
+  height: var(--portfolio-icon-size);
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
 .portfolio-item-content > :first-child {
@@ -28,11 +30,13 @@
 
 @media (max-width: 600px) {
   .portfolio-item {
-    grid-template-columns: 88px minmax(0, 1fr);
+    --portfolio-icon-size: 88px;
+    grid-template-columns: var(--portfolio-icon-size) minmax(0, 1fr);
     gap: 0.75rem;
   }
 
   .portfolio-item-icon {
-    width: 88px;
+    width: var(--portfolio-icon-size);
+    height: var(--portfolio-icon-size);
   }
 }
