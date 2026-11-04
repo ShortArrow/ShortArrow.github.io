@@ -1,5 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ShortArrow">
-  <rect width="64" height="64" rx="14" fill="#171717"/>
-  <path d="M13 32h29" fill="none" stroke="#67b7ff" stroke-width="7" stroke-linecap="round"/>
-  <path d="m35 17 15 15-15 15" fill="none" stroke="#67b7ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="ShortArrow">
+  <image href="/favicon.ico" width="32" height="32" preserveAspectRatio="xMidYMid meet"/>
 </svg>
