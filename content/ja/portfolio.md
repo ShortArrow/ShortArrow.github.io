@@ -124,6 +124,8 @@ ArduinoボードのLEDを制御し、スケッチを管理するためのユニ�
 [https://github.com/ShortArrow/hanzen.nvim](https://github.com/ShortArrow/hanzen.nvim)
 {{< /portfolio-item >}}
 
+## Pythonパッケージ
+
 {{< portfolio-item src="/img/portfolio/pending.svg" alt="Pyxlimg icon" >}}
 ### Pyxlimg
 

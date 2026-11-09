@@ -120,6 +120,8 @@ Neovim plugin for rewrite half width to full width or reverse, hiragana and kata
 [https://github.com/ShortArrow/hanzen.nvim](https://github.com/ShortArrow/hanzen.nvim)
 {{< /portfolio-item >}}
 
+## Python package
+
 {{< portfolio-item src="/img/portfolio/pending.svg" alt="Pyxlimg icon" >}}
 ### Pyxlimg
 
