@@ -164,6 +164,38 @@ This is my development environment
 
 ## Other tools
 
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="vhabitat icon" >}}
+### vhabitat
+
+A site that introduces software and related tools for Vimmers.
+
+[https://github.com/ShortArrow/vhabitat](https://github.com/ShortArrow/vhabitat)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="mblint icon" >}}
+### mblint
+
+A hardware configuration checker that examines a motherboard and its installed components, reporting lane conflicts, bandwidth limits and protocol problems. It also provides a browser-based simulator.
+
+[https://mblint.shortarrow.jp/](https://mblint.shortarrow.jp/) / [https://github.com/ShortArrow/mblint](https://github.com/ShortArrow/mblint)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="neovim-reverse-lookup icon" >}}
+### neovim-reverse-lookup
+
+A reverse-lookup cheat sheet for Neovim commands.
+
+[https://neovim-reverse-lookup.shortarrow.jp/](https://neovim-reverse-lookup.shortarrow.jp/) / [https://github.com/ShortArrow/neovim-reverse-lookup](https://github.com/ShortArrow/neovim-reverse-lookup)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="pkg icon" >}}
+### pkg
+
+The repository behind `pkg.shortarrow.jp`, a package registry for ShortArrow's command-line tools.
+
+[https://pkg.shortarrow.jp/](https://pkg.shortarrow.jp/) / [https://github.com/ShortArrow/pkg](https://github.com/ShortArrow/pkg)
+{{< /portfolio-item >}}
+
 {{< portfolio-item src="/img/portfolio/pending.svg" alt="LuMeLIR icon" >}}
 ### LuMeLIR (W.I.P.)
 

@@ -168,6 +168,38 @@ PDFや画像から氏名・組織名・型番などの識別情報を検出し�
 
 ## その他ツール
 
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="vhabitat icon" >}}
+### vhabitat
+
+Vimmer向けソフトウェアと関連ツールを紹介するサイトです。
+
+[https://github.com/ShortArrow/vhabitat](https://github.com/ShortArrow/vhabitat)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="mblint icon" >}}
+### mblint
+
+マザーボードと搭載パーツの構成を検査し、レーン競合や帯域、プロトコルの問題を報告するハードウェア構成検査ツールです。ブラウザで動くシミュレーターも提供しています。
+
+[https://mblint.shortarrow.jp/](https://mblint.shortarrow.jp/) / [https://github.com/ShortArrow/mblint](https://github.com/ShortArrow/mblint)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="neovim-reverse-lookup icon" >}}
+### neovim-reverse-lookup
+
+Neovimの操作を逆引きできるチートシートです。
+
+[https://neovim-reverse-lookup.shortarrow.jp/](https://neovim-reverse-lookup.shortarrow.jp/) / [https://github.com/ShortArrow/neovim-reverse-lookup](https://github.com/ShortArrow/neovim-reverse-lookup)
+{{< /portfolio-item >}}
+
+{{< portfolio-item src="/img/portfolio/pending.svg" alt="pkg icon" >}}
+### pkg
+
+ShortArrowのコマンドラインツール向けパッケージレジストリ `pkg.shortarrow.jp` を提供するリポジトリです。
+
+[https://pkg.shortarrow.jp/](https://pkg.shortarrow.jp/) / [https://github.com/ShortArrow/pkg](https://github.com/ShortArrow/pkg)
+{{< /portfolio-item >}}
+
 {{< portfolio-item src="/img/portfolio/pending.svg" alt="LuMeLIR icon" >}}
 ### LuMeLIR (W.I.P.)
 
