@@ -6,6 +6,7 @@
 
 .portfolio-item {
   --portfolio-icon-size: 180px;
+  position: relative;
   display: grid;
   grid-template-columns: var(--portfolio-icon-size) minmax(0, 1fr);
   gap: 1.25rem;
@@ -16,6 +17,21 @@
   border: 1px solid rgba(127, 127, 127, 0.35);
   border-radius: 0.75rem;
   box-sizing: border-box;
+}
+
+.portfolio-item[data-platform]::before {
+  content: attr(data-platform);
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  z-index: 1;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid rgba(103, 183, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(103, 183, 255, 0.12);
+  color: #67b7ff;
+  font-size: 0.75rem;
+  line-height: 1.2;
 }
 
 .portfolio-item-icon {
@@ -49,7 +65,7 @@
 
 @media (min-width: 601px) {
   .portfolio-item-content {
-    padding: 0.5rem 0.75rem 0.5rem 0.25rem;
+    padding: 0.5rem 8rem 0.5rem 0.25rem;
   }
 }
 
@@ -66,9 +82,17 @@
     display: contents;
   }
 
+  .portfolio-item[data-platform]::before {
+    top: 0.65rem;
+    right: 0.75rem;
+    max-width: 7rem;
+    font-size: 0.7rem;
+  }
+
   .portfolio-item-content > :first-child {
     grid-column: 2;
     align-self: center;
+    padding-right: 6rem;
   }
 
   .portfolio-item-content > :not(:first-child) {

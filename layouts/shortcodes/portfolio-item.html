@@ -1,4 +1,4 @@
-<article class="portfolio-item">
+<article class="portfolio-item"{{ with .Get "platform" }} data-platform="{{ . }}"{{ end }}>
   <div class="portfolio-item-icon">
     <img class="portfolio-icon" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="128" height="128">
   </div>
