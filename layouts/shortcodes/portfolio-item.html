@@ -3,6 +3,7 @@
     <img class="portfolio-icon" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="128" height="128">
   </div>
   <div class="portfolio-item-content">
-    {{ .Inner | markdownify }}
+    {{- /* Keep each "link /" pair as one unit so the separator stays beside its link when the line wraps. */}}
+    {{ .Inner | markdownify | replaceRE `(<a [^>]*>[^<]*</a>) /` `<span class="portfolio-link">$1&nbsp;/</span>` | safeHTML }}
   </div>
 </article>

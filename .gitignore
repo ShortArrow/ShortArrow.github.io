@@ -17,3 +17,6 @@ node_modules/
 static/fonts/
 static/webfonts/
 static/fontsd/
+
+# Screenshots and logs from tests/
+/test-results/
