@@ -4,14 +4,15 @@
  *
  * Builds the site with Hugo into a temporary directory and asserts, for each
  * language, that the page is built, names Cloudflare Web Analytics, says that
- * it sets no cookies, and links the Cloudflare documentation it relies on.
+ * it sets no cookies, and links the Cloudflare documentation it relies on;
+ * and that the footer of every page links the policy in that page's language.
  *
  * Requires: hugo on PATH. Run: node --test tests/
  */
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, readFileSync, existsSync, rmSync } from "node:fs";
+import { mkdtempSync, readFileSync, readdirSync, existsSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 
@@ -45,3 +46,18 @@ for (const { lang, file, cookie } of PAGES) {
     for (const url of SOURCES) assert.ok(html.includes(`href="${url}"`), `does not link ${url}`);
   });
 }
+
+test("every page links the privacy policy of its language from the footer", () => {
+  const pages = readdirSync(buildDir, { recursive: true }).filter((f) => f.endsWith(".html")).map((f) => f.replaceAll("\\", "/"));
+  assert.ok(pages.length > 0, "no pages were built");
+  let footers = 0;
+  const missing = pages.filter((file) => {
+    const footer = readFileSync(join(buildDir, file), "utf8").match(/<footer class="footer">[\s\S]*?<\/footer>/)?.[0];
+    if (!footer) return false;
+    footers++;
+    const href = file.startsWith("en/") ? "/en/privacy/" : "/privacy/";
+    return !footer.includes(`href="${href}"`);
+  });
+  assert.ok(footers > 0, "no page has the theme's footer");
+  assert.deepEqual(missing, []);
+});
