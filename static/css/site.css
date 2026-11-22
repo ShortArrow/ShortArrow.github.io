@@ -1,0 +1,6 @@
+/* hugo-coder fixes the colour scheme toggle at bottom: 2rem with a 3rem height.
+   Padding the footer by that much keeps its text above the toggle once the page
+   is scrolled to the end, where the footer would otherwise run under it. */
+footer.footer {
+  padding-bottom: 5rem;
+}
