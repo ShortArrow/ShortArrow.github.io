@@ -4,7 +4,8 @@
  *
  * Builds the site with Hugo into a temporary directory and asserts, for each
  * language, that the page is built, names Cloudflare Web Analytics, says that
- * it sets no cookies, and links the Cloudflare documentation it relies on;
+ * it sets no cookies, describes the cf_clearance cookie that Cloudflare's bot
+ * detection sets, and links the Cloudflare documentation it relies on;
  * and that the footer of every page links the policy in that page's language.
  *
  * Requires: hugo on PATH. Run: node --test tests/
@@ -20,6 +21,7 @@ const REPO = resolve(import.meta.dirname, "..");
 const SOURCES = [
   "https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/",
   "https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/",
+  "https://developers.cloudflare.com/cloudflare-challenges/challenge-types/javascript-detections/",
 ];
 const PAGES = [
   { lang: "ja", file: "privacy/index.html", cookie: "Cookie" },
@@ -43,6 +45,7 @@ for (const { lang, file, cookie } of PAGES) {
     const html = readFileSync(path, "utf8");
     assert.match(html, /Cloudflare Web Analytics/);
     assert.ok(html.includes(cookie), `does not mention ${cookie}s`);
+    assert.ok(html.includes("cf_clearance"), "does not describe the cf_clearance cookie");
     for (const url of SOURCES) assert.ok(html.includes(`href="${url}"`), `does not link ${url}`);
   });
 }
